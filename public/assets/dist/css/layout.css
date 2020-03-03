@@ -1,0 +1,188 @@
+/* line 2, ../sass/layout.scss */
+body {
+  height: 100%;
+}
+
+/* line 5, ../sass/layout.scss */
+section.site {
+  padding: 0;
+  min-height: 100%;
+}
+/* line 8, ../sass/layout.scss */
+section.site .main-part {
+  padding: 0 10px 111px;
+}
+
+/* line 12, ../sass/layout.scss */
+footer {
+  margin-top: -56px;
+}
+
+/* line 15, ../sass/layout.scss */
+.blog .page-title {
+  margin: 0 0 0px;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  margin: 58px 0 0;
+}
+/* line 23, ../sass/_essential.scss */
+.blog .page-title .h-ico {
+  display: inline-block;
+  width: 58px;
+  height: 57px;
+  margin: 3px 15px 0 0;
+  background: url('../images/heads-icons2e3d.png?1373619174') no-repeat;
+  background-position: 0 -114px;
+  vertical-align: middle;
+}
+/* line 32, ../sass/_essential.scss */
+.blog .page-title h2 {
+  display: inline-block;
+  font: bold 60px/50px "Open Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin: -3px 0 0;
+}
+/* line 39, ../sass/_essential.scss */
+.blog .page-title .h-line {
+  display: block;
+  height: 0px;
+  width: 1px;
+  margin: 3px auto 0;
+  padding: 0 176px;
+  border-top: 1px solid white;
+}
+/* line 51, ../sass/_essential.scss */
+.blog .page-title .h-line:first-child {
+  margin-top: 0;
+}
+@media all and (max-width: 640px) {
+  /* line 56, ../sass/_essential.scss */
+  .blog .page-title h2 {
+    font-size: 42px;
+  }
+}
+@media all and (max-width: 640px) {
+  /* line 15, ../sass/layout.scss */
+  .blog .page-title {
+    margin: 89px 0 0;
+  }
+  /* line 20, ../sass/layout.scss */
+  .blog .page-title .h-line {
+    padding: 0;
+    width: auto;
+  }
+}
+
+/* line 26, ../sass/layout.scss */
+.right-sidebar {
+  float: right;
+  width: 315px;
+  margin: 58px 0 20px 20px;
+  background-color: #fff;
+}
+/* line 31, ../sass/layout.scss */
+.right-sidebar h3 {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: normal;
+  border-bottom: 1px solid #c5cacf;
+  text-transform: none;
+}
+/* line 38, ../sass/layout.scss */
+.right-sidebar .right-block {
+  margin: 30px 20px;
+  width: 275px;
+}
+@media all and (max-width: 640px) {
+  /* line 26, ../sass/layout.scss */
+  .right-sidebar {
+    float: none;
+    width: auto;
+    margin: 0 0 20px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  /* line 48, ../sass/layout.scss */
+  .right-sidebar .right-block {
+    width: auto;
+  }
+}
+
+/* line 53, ../sass/layout.scss */
+.content-area {
+  margin: 58px 0 0;
+  width: 645px;
+  float: left;
+}
+/* line 58, ../sass/layout.scss */
+.content-area .blog-items .one-item,
+.content-area .blog-one-article.one-item {
+  min-width: 605px;
+  margin-bottom: 20px;
+}
+/* line 61, ../sass/layout.scss */
+.content-area .blog-items .one-item img,
+.content-area .blog-one-article.one-item img {
+  width: 100%;
+  margin-bottom: 7px;
+}
+/* line 66, ../sass/layout.scss */
+.content-area .blog-items .one-item section h1, .content-area .blog-items .one-item section h3,
+.content-area .blog-one-article.one-item section h1,
+.content-area .blog-one-article.one-item section h3 {
+  font-weight: lighter;
+  font-size: 34px;
+  text-transform: none;
+  height: auto;
+}
+/* line 72, ../sass/layout.scss */
+.content-area .blog-items .one-item section p,
+.content-area .blog-one-article.one-item section p {
+  font: 18px/23px "Open Sans Condensed", sans-serif;
+}
+/* line 77, ../sass/layout.scss */
+.content-area .more-button {
+  display: block;
+  width: 253px;
+  height: 42px;
+  line-height: 42px;
+  margin: 60px auto 5px;
+}
+@media all and (max-width: 640px) {
+  /* line 77, ../sass/layout.scss */
+  .content-area .more-button {
+    width: auto;
+    margin: 5px auto 60px;
+  }
+}
+@media all and (max-width: 640px) {
+  /* line 53, ../sass/layout.scss */
+  .content-area {
+    float: none;
+    width: auto;
+    margin: 89px 0 0 0;
+  }
+  /* line 93, ../sass/layout.scss */
+  .content-area .blog-items .one-item,
+  .content-area .blog-one-article.one-item {
+    width: auto;
+    min-width: 0;
+  }
+  /* line 97, ../sass/layout.scss */
+  .content-area .blog-items .one-item section h1, .content-area .blog-items .one-item section h3,
+  .content-area .blog-one-article.one-item section h1,
+  .content-area .blog-one-article.one-item section h3 {
+    height: auto;
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 640px) {
+  /* line 106, ../sass/layout.scss */
+  .page-title + .content-area {
+    margin: 30px 0 0 0;
+  }
+}
