@@ -29,7 +29,7 @@
         "@ckeditor/ckeditor5-vue": "^1.0.1",
         "@fortawesome/fontawesome-free": "^5.12.0",
         "laravel-vue-pagination": "^2.3.1",
-        "moment": "^2.24.0",
+        "moment": "^2.29.4",
         "sweetalert2": "^9.7.1",
         "vform": "^1.0.1",
         "vue-progressbar": "^0.7.5",
